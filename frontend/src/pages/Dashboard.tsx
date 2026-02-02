@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabaseClient';
 import { GESTORES_COLABORADORES } from '../data/gestoresColaboradores';
 import { useNavigate } from 'react-router-dom';
-import { Plus, Search, Users, LogOut, Clock, CalendarDays, Download } from 'lucide-react';
+import { Plus, Search, Users, LogOut, Clock, CalendarDays, Download, Loader2 } from 'lucide-react';
 import AdjustmentForm from '../components/AdjustmentForm';
 import { REASON_LABELS } from '../lib/api';
 

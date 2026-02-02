@@ -25,7 +25,7 @@ interface FormData {
 }
 
 export default function AdjustmentForm({ onClose, onSuccess, managerEmail, managerName, employees }: AdjustmentFormProps) {
-  const { register, handleSubmit, watch, formState: { errors, isSubmitting } } = useForm<FormData>();
+  const { register, handleSubmit, watch, formState: { isSubmitting } } = useForm<FormData>();
   const [warnings, setWarnings] = useState<string[]>([]);
 
   // Watch fields for validation logic
