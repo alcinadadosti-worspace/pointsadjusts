@@ -11,6 +11,20 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
+  if (!supabase) {
+  return (
+    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+      <div className="max-w-md w-full rounded-2xl border border-border bg-surface p-4">
+        <h1 className="text-white text-lg font-semibold">Configuração faltando</h1>
+        <p className="text-secondary text-sm mt-2">
+          Defina VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY no arquivo <b>frontend/.env</b>
+          e reinicie o npm run dev.
+        </p>
+      </div>
+    </div>
+  );
+}
+
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!selectedManager || !pin) return;
