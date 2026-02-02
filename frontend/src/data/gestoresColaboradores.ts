@@ -1,0 +1,128 @@
+// AUTO-GERADO a partir do Excel LideresComColaboradores-Respectivos.xlsx
+// Mapeia: Nome do Gestor -> lista de colaboradores (name, user_id opcional).
+export type EmployeeSeed = { name: string; user_id?: string };
+export const GESTORES_COLABORADORES: Record<string, EmployeeSeed[]> = {
+  "Alcina": [
+  ],
+  "Luiz Henrique Martins Tavares": [
+  ],
+  "Fernando Ramos": [
+    { name: "Alberto Luiz Marinho Batista", user_id: "U07KXEJU338" },
+    { name: "Carlos Oliveira", user_id: "U0895CZ8HU7" },
+    { name: "Leidiane Souza", user_id: "U07KX76F7D4" },
+    { name: "Michaell Jean Nunes de Carvalho", user_id: "U07P692F1FB" },
+    { name: "Rafaela Mendes", user_id: "U07KP9J5BLP" },
+    { name: "Rômulo Lisboa", user_id: "U07LSKN7SNL" },
+    { name: "Suzana Tavares", user_id: "U09F9LWM6MC" },
+  ],
+  "Rômulo Lisboa": [
+    { name: "João Antonio", user_id: "U07LP4JSN9K" },
+    { name: "Jonathan Henrique", user_id: "U07L4D3EWJW" },
+  ],
+  "Alberto Luiz Marinho Batista": [
+    { name: "Ludmylla Wolpert", user_id: "U08H0PHPAMC" },
+    { name: "Rosilene Martins", user_id: "U0A1VJ2Q4R0" },
+    { name: "Anderson Rocha", user_id: "U08EFRBASGJ" },
+    { name: "Márcio Alif Santos Silva", user_id: "U08QP0KFL15" },
+    { name: "Paulo Cesar", user_id: "U08EB943ZCJ" },
+    { name: "Claudio", user_id: "U08EHG788DV" },
+    { name: "Danrley", user_id: "U08EYMYMXNW" },
+    { name: "Luciano torres", user_id: "U08PPAAH5PT" },
+    { name: "Thalys Gomes", user_id: "U08E8GH19TP" },
+    { name: "João victor", user_id: "U08762E1PMM" },
+    { name: "Hugo Castro Lopes", user_id: "U0A3P2QB5P0" },
+    { name: "Pedro Lucas", user_id: "U09BMRBFRM0" },
+    { name: "Caique Santos", user_id: "U089NSW1BDG" },
+  ],
+  "João Antonio": [
+    { name: "Gessica Queiroz", user_id: "U09G04R3CNP" },
+    { name: "Gessyca Nayara", user_id: "U08JJH9BWP5" },
+    { name: "lais manuelle", user_id: "U08UMBX0CP4" },
+    { name: "Kauanne Iwashita", user_id: "U0875QNU02K" },
+    { name: "Natali Gonzaga", user_id: "U08M7D0EVR9" },
+    { name: "Nathália Vieira Lima", user_id: "U08JJ7VF0N6" },
+    { name: "Sabrina", user_id: "U08F7PSCPK6" },
+    { name: "Leticia Seixas", user_id: "U08JJ6JMH50" },
+    { name: "Emanoelle Vieira", user_id: "U08NTGXEK26" },
+    { name: "Giselle Santos Roberto", user_id: "U08P5GH6C3Z" },
+    { name: "Joyce Cassimiro Souto", user_id: "U08NT4ZLKDG" },
+    { name: "ᗪᗩᐯᎥᗪ ᔕᎥᒪᐯᗩ", user_id: "U08NERQKFD4" },
+    { name: "Kamilla Silva", user_id: "U091WKY7V6X" },
+    { name: "yuri castro", user_id: "U094A8J5R2L" },
+    { name: "Lucrécia Ferreira", user_id: "U093NHTLU3F" },
+    { name: "Thalita Ruanna", user_id: "U0A1E5S092B" },
+    { name: "Sandra Freitas", user_id: "U0A1P79UK0T" },
+    { name: "Rodrigo Augusto Teixeira Dos Santos", user_id: "U0922F5KB7U" },
+  ],
+  "Jonathan Henrique": [
+    { name: "Jordelle Meygre", user_id: "U088986S1L0" },
+    { name: "EDNA", user_id: "U08NCQMJCMQ" },
+    { name: "Danielle", user_id: "U0929MZMW5C" },
+    { name: "Juliana Oliveira Cavalcante", user_id: "U0A7AVC5ZSN" },
+    { name: "Luan Backoffice Vd Palmeira", user_id: "U087M32A18B" },
+    { name: "Yasmim Barbosa", user_id: "U08F8T8SMNE" },
+    { name: "João Ricardo", user_id: "U09DHA4MV52" },
+    { name: "Raquele Fragoso", user_id: "U0A0D0J2E31" },
+    { name: "Maria Victória Araújo", user_id: "U08EZUH7X1C" },
+    { name: "Camilla Emanuelle Lopes De Almeida", user_id: "U0939HA46LW" },
+  ],
+  "Carlos Oliveira": [
+    { name: "Amanda Santos Costa", user_id: "U07Q9HE3KGA" },
+  ],
+  "Leidiane Souza": [
+    { name: "Ana Clara de Matos Chagas", user_id: "U08F9KK0AAG" },
+    { name: "Erick Café", user_id: "U07KPE840MD" },
+    { name: "ISLA GABRIELA DE AZEVEDO SANTOS", user_id: "U094W9F4ACA" },
+    { name: "Kemilly Rafaelly", user_id: "U087HDEARA9" },
+    { name: "Mariane Sousa", user_id: "U088B372R40" },
+    { name: "Taciane Pereira", user_id: "U07L6EAUS75" },
+  ],
+  "Erick Café": [
+    { name: "Camille Kauane", user_id: "U09JGAFFZB6" },
+    { name: "Eliene", user_id: "U087P8JF97F" },
+    { name: "Tatiane", user_id: "U09C5DPU8E6" },
+  ],
+  "ISLA GABRIELA DE AZEVEDO SANTOS": [
+    { name: "Valesca Vitorio", user_id: "U087M7GCNMC" },
+    { name: "Yasmin Abilia", user_id: "U0A5YLESW1E" },
+    { name: "Robéria  Gilo", user_id: "U08B1MQJL3C" },
+  ],
+  "Ana Clara de Matos Chagas": [
+    { name: "Deise Gislaine", user_id: "U092FQKNFPB" },
+    { name: "Cris", user_id: "U087Z7M1TA5" },
+    { name: "samyra anchieta", user_id: "U09EGC0GKN0" },
+  ],
+  "Kemilly Rafaelly": [
+    { name: "Gabrielle Vitoria", user_id: "U09ED6DM61G" },
+    { name: "Maryanna Trajano", user_id: "U09ED214T6W" },
+  ],
+  "Taciane Pereira": [
+    { name: "Thamirys Silvestrini", user_id: "U08N6EGUZ8B" },
+    { name: "Bruna Rayane", user_id: "U08NLNHF29G" },
+    { name: "Ana paula", user_id: "U087E6YNPRD" },
+  ],
+  "Mariane Sousa": [
+    { name: "Anny Karoline", user_id: "U08JFCGBFSA" },
+  ],
+  "Michaell Jean Nunes de Carvalho": [
+    { name: "Tomás Azevedo", user_id: "U081ZP68CA1" },
+    { name: "Maria Nobre", user_id: "U082F9GGMSM" },
+    { name: "Alyni", user_id: "U081N2ZCK7Z" },
+    { name: "Mara", user_id: "U08PZTY2G0Y" },
+    { name: "juliene", user_id: "U08PER1QM2N" },
+    { name: "Luis Henrique", user_id: "U097B39GTMG" },
+  ],
+  "Rafaela Mendes": [
+    { name: "Letícia Soares Belo", user_id: "U08K69RC01H" },
+    { name: "Millena Sthefany", user_id: "U08NLQK5PEJ" },
+  ],
+  "Suzana Tavares": [
+    { name: "ravy thiago", user_id: "U07Q8NT7J1Y" },
+    { name: "Thayane Mayara", user_id: "U08B2NHAH8C" },
+    { name: "Lianda Melinda Santos Calixto", user_id: "U09AYV61119" },
+  ],
+  "ravy thiago": [
+    { name: "Thayane Mayara", user_id: "U08B2NHAH8C" },
+    { name: "Lianda Melinda Santos Calixto", user_id: "U09AYV61119" },
+  ],
+};

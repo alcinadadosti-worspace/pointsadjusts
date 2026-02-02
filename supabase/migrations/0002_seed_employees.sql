@@ -1,0 +1,3 @@
+-- Seed inicial vazio. 
+-- A inserção de dados deve ser feita através da funcionalidade "Importar meus colaboradores" 
+-- no Dashboard, que utiliza os dados locais do arquivo gestoresColaboradores.ts.
